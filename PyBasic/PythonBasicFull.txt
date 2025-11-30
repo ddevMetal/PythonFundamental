@@ -1,0 +1,66 @@
+Python Full Course For Beginners (Learn How To Code in 2025)
+https://www.youtube.com/watch?v=Lc5LKDqhyzs
+
+
+timestamp:
+1:19.21
+
+
+--------------------------------------------------------------
+This will:
+
+Turn off automatic Copilot suggestions
+
+Keep the feature available so you can trigger it manually with *Alt+* (or Alt+] 
+for next suggestion)
+
+Alternatively, if you want Copilot suggestions to appear 
+but with a delay, you can keep auto-completions on but increase the
+delay - though there's no built-in delay setting for Copilot specifically.
+
+Would you like me to add the setting to disable automatic Copilot suggestions?
+You'll still be able to trigger them manually with Alt+\.
+--------------------------------------------------------------
+🎬COURSE CHAPTERS:
+00:00:00 Welcome To Python Course!
+00:02:45 [01] How To Execute Python?
+00:07:55 [02] Basic Data-Type and Variables
+00:26:45 [03] User Input Excercise
+00:35:20 [04] Master Collection Data-Types (List, Tuple, Set, Dict)
+01:18:50 [05] Practice List and Dict
+01:42:55 [06] Basic Python Operators
+01:58:40 [07] Conditional Statements (Logic)
+02:14:40 [08] Game: Mix Colors in Python
+02:29:25 [09] Game: Guess a Number
+02:44:25 [10] Loops in Python
+03:03:35 [11] Practice Loops with Fibonacci Seq
+03:09:35 [12] Functions - How to Reuse Code?
+03:24:45 [13] Built-In Functions Overview
+03:53:55 [14] Built-In Methods Overview
+04:20:40 [15] Game: Most Frequent Letter
+04:32:45 [16] Game: Password Checker
+04:53:25 [17] Recursive Function
+05:04:20 [18] Error Handling Basics
+05:12:00 [19] Comprehensions (One-Liners in Python)
+05:28:50 [20] Common Python Packages
+05:44:45 [21] Read/Write Txt, CSV, JSON
+06:03:15 [22] Automate Excel
+06:36:45 [23] Context Manager
+06:48:00 [25] Logging Like a Pro
+07:13:55 [26] Git For Beginners
+07:40:20 [27] Modules and Packages
+07:54:25 [28] OOP - Object Oriented Programming
+08:17:15 [29] Project: File Sorting Automation
+09:00:45 [30] AI Basics for Python
+09:22:40 [31] Project: AI Video Summaries with Python
+10:05:05 [32] Turn Python into CMD Commands
+10:20:50 [33] Automate Notion API
+10:56:20 [34] Install Cursor IDE
+11:07:10 [35] Django App (AI Agent)
+11:36:10 [36] Where to Practice
+11:57:05 [37] Thank You
+
+------------------------------------------------------------------
+NOTES:
+------------------------------------------------------------------
+00:07:55 [02] Basic Data-Type and Variables
