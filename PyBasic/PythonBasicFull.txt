@@ -1,3 +1,15 @@
+========================================
+GIT INSTRUCTIONS
+========================================
+PULL (Get latest changes from GitHub):
+git pull origin main
+
+PUSH (Send your changes to GitHub):
+git add .
+git commit -m "your message here"
+git push origin main
+========================================
+
 Python Full Course For Beginners (Learn How To Code in 2025)
 https://www.youtube.com/watch?v=Lc5LKDqhyzs
 
