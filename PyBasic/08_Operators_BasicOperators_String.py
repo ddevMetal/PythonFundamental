@@ -51,4 +51,4 @@ b = 'Concrete-20cm'
 
 check = a == b
 print(a==b) # False
-print(a!=b)
+print(a!=b) # true
