@@ -126,3 +126,36 @@ backpack.append(coin_pouch)
 
 print('🎒',backpack)
 print('-'*50)
+
+#9️⃣ Half Backpack Contents Have Teleported
+#--------------------------------------------------- 
+print('9. 💥Half Items Magically Disappeared. Damn You Magic Ring....')
+
+count       = len(backpack)
+
+# #method 1: type casting
+# half        = int(count/2)
+
+#method 2: use // flooring down
+half        = count//2
+
+#method 1: use slicing method
+backpack    = backpack[:half]
+
+print('🎒',backpack)
+print('-'*50)
+
+#🔟 Bandits Stole Empty Backpack
+#--------------------------------------------------- 
+print('10. 🧞‍♂️Bandits Attacked.')
+print('Backpack Stolen...')
+
+
+# #method 1: clearing up the list
+# backpack.clear()
+
+#method 2:
+backpack = None # this is how to use none <--- means u dont even have anything unless .clear() 
+
+print('🎒',backpack)
+print('-'*50)
