@@ -31,7 +31,7 @@ print(mats_1 != mats_2)                     #True
 br(50)
 
 print(mats_2 in mats_3) # False unless list inside a list / join list !=
-print(mats_2 in mats_4) # True list inside a list 
+print(mats_2 in mats_4) # True list inside a list [ ["Concrete", "Steel", "Glass"], ["Wood", "Brick"]   ]
 
 # Equality
 #------------------------------------------------------------
