@@ -60,3 +60,21 @@ if not is_enabled:
 
 br(50)
 # membership operator
+member_in               = 'wood'    in ['metal', 'concrete', 'wood']
+member_in               = 'wood'    in 'wood'
+member_not_in           = 'wood'    in ['metal', 'concrete', 'bricks']
+
+
+
+# nested statement
+panel_w = 2000
+panel_h = 2500
+
+if panel_w <= 1500:
+    print('width is good')
+    if panel_h <= 3000:
+        print('height is good')
+    else:
+        print('height is not good')
+else:
+    print('width is not good')
