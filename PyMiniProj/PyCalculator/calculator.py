@@ -213,39 +213,81 @@ def button_clicked(value):
                 label['text'] += value   # Append digit to existing number
 
 # === BUTTON CREATION ===
-for row in range(row_count):
-    for column in range(column_count):
-        value = button_values[row][column]
+# Loop through button_values 2D list to create all buttons
+for row in range(row_count):              # Iterate through rows (0-4)
+    for column in range(column_count):    # Iterate through columns (0-3)
+        value = button_values[row][column]  # Get button text ("7", "+", etc.)
+        
+        # Button: Clickable widget
         button = tkinter.Button(
-            frame, 
-            text=value, 
-            font=("Arial", 30), 
-            width=column_count-1, 
-            height=1, 
+            frame,                          # parent - Place button inside frame
+            text=value,                     # text - Button label
+            font=("Arial", 30),             # font - Text size and style
+            width=column_count-1,           # width - Button width (3 characters)
+            height=1,                       # height - Button height (1 line)
             command=lambda value=value: button_clicked(value)
+            # command - Function to call when clicked
+            # lambda - Anonymous function that captures 'value' and calls button_clicked()
+            # Why lambda? Because we need to pass 'value' as parameter
+            # Without lambda: command=button_clicked won't pass any arguments
+            # With lambda: command=lambda value=value: button_clicked(value) passes the button text
         )
         
-        if value in top_symbols:
+        # Apply color scheme based on button category
+        if value in top_symbols:           # Utility buttons
             button.config(foreground=color_black, background=color_light_gray)
-        elif value in right_symbols:
+            # config() - Modifies widget properties after creation
+        elif value in right_symbols:       # Operator buttons
             button.config(foreground=color_white, background=color_orange)
-        else:
+        else:                              # Number buttons
             button.config(foreground=color_white, background=color_dark_gray)
         
+        # Position button in grid layout
         button.grid(row=row+1, column=column)
+        # row+1 because row 0 is reserved for the display label
 
+# Make frame visible in window
 frame.pack()
+# pack() - Layout manager that fits widget into parent
+# Alternative layout managers: grid(), place()
 
-# === CENTER WINDOW ===
+# === CENTER WINDOW ON SCREEN ===
+
+# Force window to render and calculate actual size
 window.update()
-window_width = window.winfo_width()
-window_height = window.winfo_height()
-screen_width = window.winfo_screenwidth()
-screen_height = window.winfo_screenheight()
+# update() - Processes all pending GUI events and updates window dimensions
+# Must call before winfo_width/height to get accurate measurements
 
-window_x = int((screen_width / 2) - (window_width / 2))
-window_y = int((screen_height / 2) - (window_height / 2))
+# Get window dimensions after all widgets are added
+window_width = window.winfo_width()      
+# winfo_width() - Returns current window width in pixels
 
+window_height = window.winfo_height()    
+# winfo_height() - Returns current window height in pixels
+
+# Get screen dimensions
+screen_width = window.winfo_screenwidth()    
+# winfo_screenwidth() - Returns monitor width in pixels
+
+screen_height = window.winfo_screenheight()  
+# winfo_screenheight() - Returns monitor height in pixels
+
+# Calculate position to center window
+# Formula: (screen_dimension / 2) - (window_dimension / 2) = offset from edge
+window_x = int((screen_width / 2) - (window_width / 2))   # X coordinate (horizontal)
+window_y = int((screen_height / 2) - (window_height / 2)) # Y coordinate (vertical)
+# int() converts float result to integer (pixel positions must be whole numbers)
+
+# Apply geometry: size and position
 window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
+# geometry(string) - Sets window size and position
+# Format: "WIDTHxHEIGHT+X+Y" (NO SPACES!)
+# Example: "316x468+1562+486"
+#   - 316px wide, 468px tall
+#   - Positioned at (1562, 486) from top-left corner of screen
 
+# Start the GUI event loop
 window.mainloop()
+# mainloop() - Keeps window open and responsive to user events
+# Blocks execution until window is closed
+# Must be last line in GUI program
