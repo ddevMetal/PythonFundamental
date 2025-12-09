@@ -48,3 +48,42 @@ x = add_number(5,12)
 y = add_number(88,89)
 
 print(x,y)
+
+
+def say_hello():
+    print ('Hellow BIM World!')
+
+say_hello()
+say_hello()
+say_hello()
+
+
+# 2️⃣ Function with Arguments/ Parameters
+"""
+Function Anatomy:
+
+def function_name(x,y):
+____# code inside
+
+
+x,y --> parameter/arguements
+
+"""
+def greet(name=None):  # Default parameter value
+    if name == None:
+        print(f'Hello Dog!')
+    else:
+        print(f'Hello {name}!')
+        
+
+
+greet()  # Uses default None → prints "Hello Dog!"
+greet("chee bai gou")  # Prints "Hello chee bai gou!"
+greet("lam pa")
+
+br(50)
+
+def tio_taiji(total_pax, gang_name=''):
+    print('Lanjiao gang -> {},total pax{}'.format(gang_name, total_pax))
+
+tio_taiji(100, "Salakau")
