@@ -1,6 +1,8 @@
 """
 Password Generator Explanation (Compressed Version)
 
+url: https://www.youtube.com/watch?v=XCIBOl3FTKo
+
 We start by preparing 3 separate character groups:
     letters  -> a-z and A-Z
     digits   -> 0-9
