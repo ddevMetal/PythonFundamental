@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "id": "M001",
+      "name": "Concrete",
+      "density": 2400,
+      "cost_per_m3": 120
+    },
+    {
+      "id": "M002",
+      "name": "Wood",
+      "density": 500,
+      "cost_per_m3": 350
+    },
+    {
+      "id": "M003",
+      "name": "Brick",
+      "density": 1800,
+      "cost_per_1000_units": 500
+    },
+    {
+      "id": "M004",
+      "name": "Glass",
+      "density": 1200,
+      "cost_per_1000_units": 1100
+    }
+  ]
+}
