@@ -1,0 +1,30 @@
+***[DEBUG]***
+Time" 2026-01-07 10:29:58,621
+Msg: This is a debug message2
+File: 50_loggin_likeAPro_02.py Line: 20s
+------------------------------------------------------
+***[INFO]***
+Time" 2026-01-07 10:29:58,621
+Msg: This is an info message2
+File: 50_loggin_likeAPro_02.py Line: 21s
+------------------------------------------------------
+***[WARNING]***
+Time" 2026-01-07 10:29:58,621
+Msg: This is a warning message2
+File: 50_loggin_likeAPro_02.py Line: 22s
+------------------------------------------------------
+***[DEBUG]***
+Time" 2026-01-07 10:31:31,060
+Msg: This is a debug message2
+File: 50_loggin_likeAPro_02.py Line: 20s
+------------------------------------------------------
+***[INFO]***
+Time" 2026-01-07 10:31:31,060
+Msg: This is an info message2
+File: 50_loggin_likeAPro_02.py Line: 21s
+------------------------------------------------------
+***[WARNING]***
+Time" 2026-01-07 10:31:31,060
+Msg: This is a warning message2
+File: 50_loggin_likeAPro_02.py Line: 22s
+------------------------------------------------------

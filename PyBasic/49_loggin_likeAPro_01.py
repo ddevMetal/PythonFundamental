@@ -21,6 +21,7 @@ try:
     c = a/b
     logging.info(f'Result: {c}')
 except:
-    logging.error('Somehing went wrong...')
+    # logging.error('Somehing went wrong...')
+    logging.exception('Somehing went wrong...')
     
 print('Hello World!')

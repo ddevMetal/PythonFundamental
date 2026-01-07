@@ -1,0 +1,36 @@
+***[DEBUG]***
+Time: 2026-01-07 10:42:23,473
+Msg: This is a debug message
+File: 51_loggin_likeAPro_03.py Line: 30
+---------------------------
+
+***[DEBUG]***
+Time: 2026-01-07 10:43:17,978
+Msg: This is a debug message
+File: 51_loggin_likeAPro_03.py Line: 30
+---------------------------
+
+***[INFO]***
+Time: 2026-01-07 10:43:17,978
+Msg: This is an info message
+File: 51_loggin_likeAPro_03.py Line: 31
+---------------------------
+
+***[WARNING]***
+Time: 2026-01-07 10:43:17,978
+Msg: This is a warning message
+File: 51_loggin_likeAPro_03.py Line: 32
+---------------------------
+
+***[ERROR]***
+Time: 2026-01-07 10:43:17,978
+Msg: This is an error message
+File: 51_loggin_likeAPro_03.py Line: 33
+---------------------------
+
+***[CRITICAL]***
+Time: 2026-01-07 10:43:17,978
+Msg: This is a critical message
+File: 51_loggin_likeAPro_03.py Line: 34
+---------------------------
+
