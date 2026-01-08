@@ -1,0 +1,122 @@
+[
+    {
+        "item_id": 2678,
+        "name": "Printer",
+        "quantity": 30,
+        "price": 355.31
+    },
+    {
+        "item_id": 5056,
+        "name": "Printer",
+        "quantity": 70,
+        "price": 580.55
+    },
+    {
+        "item_id": 9976,
+        "name": "Monitor",
+        "quantity": 71,
+        "price": 304.6
+    },
+    {
+        "item_id": 2282,
+        "name": "Monitor",
+        "quantity": 31,
+        "price": 1168.37
+    },
+    {
+        "item_id": 6391,
+        "name": "Laptop",
+        "quantity": 18,
+        "price": 490.49
+    },
+    {
+        "item_id": 4990,
+        "name": "Laptop",
+        "quantity": 43,
+        "price": 1477.63
+    },
+    {
+        "item_id": 2548,
+        "name": "Mouse",
+        "quantity": 72,
+        "price": 1180.29
+    },
+    {
+        "item_id": 3168,
+        "name": "Mouse",
+        "quantity": 52,
+        "price": 117.24
+    },
+    {
+        "item_id": 6086,
+        "name": "Laptop",
+        "quantity": 86,
+        "price": 379.67
+    },
+    {
+        "item_id": 1263,
+        "name": "Keyboard",
+        "quantity": 24,
+        "price": 897.88
+    },
+    {
+        "item_id": 1752,
+        "name": "Monitor",
+        "quantity": 67,
+        "price": 367.9
+    },
+    {
+        "item_id": 7062,
+        "name": "Mouse",
+        "quantity": 94,
+        "price": 920.78
+    },
+    {
+        "item_id": 4152,
+        "name": "Laptop",
+        "quantity": 67,
+        "price": 643.32
+    },
+    {
+        "item_id": 9241,
+        "name": "Laptop",
+        "quantity": 40,
+        "price": 1447.93
+    },
+    {
+        "item_id": 5802,
+        "name": "Monitor",
+        "quantity": 2,
+        "price": 1227.73
+    },
+    {
+        "item_id": 4729,
+        "name": "Monitor",
+        "quantity": 90,
+        "price": 1100.27
+    },
+    {
+        "item_id": 8862,
+        "name": "Laptop",
+        "quantity": 1,
+        "price": 734.75
+    },
+    {
+        "item_id": 5685,
+        "name": "Mouse",
+        "quantity": 35,
+        "price": 401.01
+    },
+    {
+        "item_id": 9937,
+        "name": "Mouse",
+        "quantity": 42,
+        "price": 717.84
+    },
+    {
+        "item_id": 2193,
+        "name": "Printer",
+        "quantity": 63,
+        "price": 937.09
+    }
+]
