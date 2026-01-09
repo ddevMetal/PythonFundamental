@@ -7,7 +7,7 @@ from openpyxl import Workbook
 # --------------------------------------------------
 # CONFIG
 # --------------------------------------------------
-BASE_PATH = "/home/cm/Documents/GitHub/PythonFundamental/PyBasic/Generated_Data"
+BASE_PATH = "/home/cm/Downoads"
 os.makedirs(BASE_PATH, exist_ok=True)
 
 WORDS = [
@@ -45,7 +45,7 @@ for i in range(1, 11):
 # --------------------------------------------------
 # CSV FILES
 # --------------------------------------------------
-for i in range(1, 6):
+for i in range(1, 40):
     with open(f"{BASE_PATH}/inventory_{i}.csv", "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["item_id", "name", "quantity", "price"])
@@ -56,7 +56,7 @@ for i in range(1, 6):
 # --------------------------------------------------
 # JSON FILES
 # --------------------------------------------------
-for i in range(1, 4):
+for i in range(1, 47):
     data = [random_inventory_item() for _ in range(20)]
     with open(f"{BASE_PATH}/inventory_{i}.json", "w") as f:
         json.dump(data, f, indent=4)
@@ -64,7 +64,7 @@ for i in range(1, 4):
 # --------------------------------------------------
 # XLSX FILES
 # --------------------------------------------------
-for i in range(1, 11):
+for i in range(1, 132):
     wb = Workbook()
     ws = wb.active
 
