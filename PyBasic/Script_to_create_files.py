@@ -7,7 +7,7 @@ from openpyxl import Workbook
 # --------------------------------------------------
 # CONFIG
 # --------------------------------------------------
-BASE_PATH = "/home/cm/Downoads"
+BASE_PATH = "/home/cm/Documents/GitHub/PythonFundamental/PyBasic/Generated_Files"
 os.makedirs(BASE_PATH, exist_ok=True)
 
 WORDS = [
